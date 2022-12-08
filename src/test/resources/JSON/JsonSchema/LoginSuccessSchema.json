@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "user_owner": {
+      "type": "boolean"
+    },
+    "foto_user": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "token",
+    "message",
+    "code",
+    "role",
+    "user",
+    "user_id",
+    "user_owner",
+    "foto_user"
+  ]
+}

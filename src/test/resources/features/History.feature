@@ -7,7 +7,7 @@ Feature: History
     And validate get history id json schema validator
     Examples:
       | id |
-      | 45 |
+      | 35  |
 
   Scenario Outline: Get history invalid ID
     Given get history invalid id <id>

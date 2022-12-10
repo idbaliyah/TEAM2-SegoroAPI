@@ -7,7 +7,7 @@ import org.example.hooks.SegoroAPI;
 import static org.example.hooks.SegoroAPI.TOKEN_OWNER;
 
 public class History {
-    public static String HISTORY = SegoroAPI.URL + "/history/{schedule_id}";
+    public static String GET_HISTORY = SegoroAPI.URL + "/history/{schedule_id}";
 
     @Step("GET history valid ID")
     public void getHistoryId(int id) {

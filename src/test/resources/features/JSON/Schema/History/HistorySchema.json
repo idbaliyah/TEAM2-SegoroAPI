@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "booking_id": {
+              "type": "integer"
+            },
+            "venue_id": {
+              "type": "integer"
+            },
+            "name_venue": {
+              "type": "string"
+            },
+            "name_user": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "field_id": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "schedule_detail_id": {
+              "type": "integer"
+            },
+            "start_hours": {
+              "type": "string"
+            },
+            "end_hours": {
+              "type": "string"
+            },
+            "price": {
+              "type": "integer"
+            },
+            "total_price": {
+              "type": "integer"
+            },
+            "payment_method": {
+              "type": "string"
+            },
+            "order_id": {
+              "type": "string"
+            },
+            "status_payment": {
+              "type": "string"
+            },
+            "transaction_time": {
+              "type": "string"
+            },
+            "transaction_id": {
+              "type": "string"
+            },
+            "transaction_exp": {
+              "type": "string"
+            },
+            "virtual_account": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "booking_id",
+            "venue_id",
+            "name_venue",
+            "name_user",
+            "email",
+            "field_id",
+            "category",
+            "schedule_detail_id",
+            "start_hours",
+            "end_hours",
+            "price",
+            "total_price",
+            "payment_method",
+            "order_id",
+            "status_payment",
+            "transaction_time",
+            "transaction_id",
+            "transaction_exp",
+            "virtual_account"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message",
+    "status"
+  ]
+}

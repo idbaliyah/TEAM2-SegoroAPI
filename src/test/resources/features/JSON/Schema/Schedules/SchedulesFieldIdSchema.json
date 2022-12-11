@@ -1,0 +1,1038 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "schedule_id": {
+              "type": "integer"
+            },
+            "venue_id": {
+              "type": "integer"
+            },
+            "field_id": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "day": {
+              "type": "string"
+            },
+            "start_hours": {
+              "type": "string"
+            },
+            "end_hours": {
+              "type": "string"
+            },
+            "schedule_detail": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "schedule_id",
+            "venue_id",
+            "field_id",
+            "category",
+            "day",
+            "start_hours",
+            "end_hours",
+            "schedule_detail"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "schedule_id": {
+              "type": "integer"
+            },
+            "venue_id": {
+              "type": "integer"
+            },
+            "field_id": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "day": {
+              "type": "string"
+            },
+            "start_hours": {
+              "type": "string"
+            },
+            "end_hours": {
+              "type": "string"
+            },
+            "schedule_detail": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "schedule_detail_id": {
+                      "type": "integer"
+                    },
+                    "schedule_id": {
+                      "type": "integer"
+                    },
+                    "venue_id": {
+                      "type": "integer"
+                    },
+                    "start_hours": {
+                      "type": "string"
+                    },
+                    "end_hours": {
+                      "type": "string"
+                    },
+                    "status_schedule": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "schedule_detail_id",
+                    "schedule_id",
+                    "venue_id",
+                    "start_hours",
+                    "end_hours",
+                    "status_schedule"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "schedule_id",
+            "venue_id",
+            "field_id",
+            "category",
+            "day",
+            "start_hours",
+            "end_hours",
+            "schedule_detail"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message",
+    "status"
+  ]
+}

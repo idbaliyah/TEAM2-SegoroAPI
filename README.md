@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/file/d/11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs/view?usp=share_link" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SegoroAPP - Team 2</h3>
@@ -14,34 +13,10 @@
     Segoro, stands for “Sewa GOR Online” in bahasa, is a web-based application to check sports arena. It allows customers to book a sports arena and allows owner to promote their venues via Online.
     <br />
     <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git"><strong>Explore the API repository »</strong></a>
+    <br>
     <a href="https://segoro-fe.vercel.app/login"><strong>Explore the Website »</strong></a>
   </p>
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Tested With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Test Case Manual</a>
-      <ul>
-        <li><a href="#prerequisites">Report Test Overall</a></li>
-        <li><a href="#installation">Test Feature Coverage</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Run The Project</a></li>
-    <li><a href="#roadmap">Team Member</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -79,13 +54,10 @@ As an admin, you can:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Tested With
 
 In this project we focus on the quality testing. Here are some of the technology we used:
 
-* 
 * [![Serenity][Serenity]][Serenity-BDD-url]
 * [![Java][Java]][Java-url]
 * [![REST][REST]][Rest-url]
@@ -94,10 +66,10 @@ In this project we focus on the quality testing. Here are some of the technology
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Test Case Manual
 
 Before we automate the tests, we created manual test case both for API and Web Front-end side.
+<br>
 <a href="https://docs.google.com/spreadsheets/d/1DBMKM2J_1JhbC_eJBkQ5L61BuZYGZG2Vo4e5K_rvyro/edit?usp=sharing">Check Our Test Cases HERE »</a> 
 
 ### Report Test Overall
@@ -122,10 +94,14 @@ Before we automate the tests, we created manual test case both for API and Web F
 ## Team Member
 
 Baliyah Ahmad Fatthony (Toni) - [github](https://twitter.com/your_username) - idbaliyah@gmail.com 
+<br>
 Dewi Kusuma Wardani (Dewi) - [github](https://twitter.com/your_username) - dkwardani28@gmail.com
+<br>
 Raden Ayu Sarah Kamilah (Sarah) - [github](https://twitter.com/your_username) - ra.sarahkamilah@gmail.com
+<br>
 
 Project Link API: [Github API](https://github.com/idbaliyah/TEAM2-SegoroAPI)
+<br>
 Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,7 +114,7 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 [product-screenshot]: images/screenshot.png
 
 [Serenity]: https://drive.google.com/file/d/1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg/view?usp=share_link
-[Serenity]: https://serenity-bdd.info/
+[Serenity-BDD-URL]: https://serenity-bdd.info/
 [Java]: https://drive.google.com/file/d/1LsPNh7R_RZi2VIZv-e1pmBET4S7NlTBf/view?usp=share_link
 [Java-url]: https://www.java.com/en/
 [REST]: https://drive.google.com/file/d/1_pr0XWwZu2A_qgPQR46-Eb_G32az4mO-/view?usp=share_link
@@ -147,14 +123,3 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 [Gherkin-url]: https://cucumber.io/docs/gherkin/
 [JSON]: https://drive.google.com/file/d/1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw/view?usp=share_link
 [JSON-url]: https://www.json.org/json-en.html
-=======
-# Getting started with REST API testing with Serenity and Cucumber 6
-
-This is a simple starter project for Serenity with Cucumber 6 and RestAssured
-
-## Want to learn more?
-For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
-* **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
-* [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
-* [**The Serenity Dojo**](https://www.serenity-dojo.com) - Tailored BDD and Test Automation Training and Mentoring
->>>>>>> f04217a64ef2c8cdff26f7a53ea7a54cccdc84ff

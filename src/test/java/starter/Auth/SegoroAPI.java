@@ -8,22 +8,31 @@ import java.io.File;
 
 public class SegoroAPI {
 //    public static String URL = "https://app.swaggerhub.com/apis-docs/raorafarhan/segoro/1.0.0#";
-    public static String URL = "https://altaproject.online";
-    public static final String DIR = System.getProperty("user.dir");
-    public static final String JSON_REQ_BODY = DIR + "/src/test/resources/JSON/RequestBody";
-    public static final String JSON_SCHEMA = DIR + "/src/test/resources/JSON/JsonSchema";
-    public static String LOGIN_USER = URL + "/login";
-    public static String SET_SINGLE_USER = URL + "/users/{user_id}";
 //    public static String SET_SINGLE_USER = URL + "/api/users/{id}";
-    public static String SET_SINGLE_VENUE = URL + "/venues/{venue_id}";
-    public static String SET_ALL_VENUES = URL + "/venues";
+    public static String URL                = "https://altapro.online";
+    public static final String DIR          = System.getProperty("user.dir");
+    public static final String JSON_REQ_BODY = DIR + "/src/test/resources/JSON/RequestBody";
+    public static final String JSON_SCHEMA  = DIR + "/src/test/resources/JSON/JsonSchema";
+    public static String LOGIN_USER         = URL + "/login";
+    public static String SET_SINGLE_USER    = URL + "/users/{user_id}";
+    public static String SET_SINGLE_VENUE   = URL + "/venues/{venue_id}";
+    public static String SET_ALL_VENUES     = URL + "/venues";
     public static String SET_ALL_USER_REQ   = URL + "/users/request";
-    public static String GET_ALL_USERS = URL + "/users";
+    public static String GET_ALL_USERS      = URL + "/users";
     public static String GET_REVIEW_BY_VENUE_ID = URL + "/reviews/{id}";
-    public static String GET_ALL_FIELDS = URL + "/fields";
-    public static String GET_SINGLE_FIELD = URL + "/fields/{id}";
-    public static final String BEARER_TOKEN_ADMIN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2NzA0NjM1NjQsImZvdG9fdXNlciI6Imh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hbHRhYnVja2V0L3NlZ29yb2J1Y2tldC91c2Vycy9hZG1pbjFfcGhvdG83NzNjOTA5My0wNTExLTQxZjAtYjc5OS0yZTMxZjAzM2EyZWYucG5nIiwibmFtZV91c2VyIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwidXNlcklkIjoyMywidXNlcl9vd25lciI6ZmFsc2V9.ijDQOXWRMaOixrPl5yWgIxZdkZmSoAWdVkjpQpl7tKc";
+    public static String GET_ALL_FIELDS     = URL + "/fields";
+    public static String GET_SINGLE_FIELD   = URL + "/fields/{id}";
+    public static String DELETE_USER        = URL + "/users";
+    public static String CREATE_USER        = DIR + "/users";
+    public static String UPDATE_USER        = DIR + "/users";
+    public static String CREATE_REVIEW      = DIR + "/reviews";
+    public static String APPROVE_USER       = DIR + "/users/adminapprove/{user_id}";
+    public static String UPGRADE_USER       = DIR + "/users/owner";
+    public static String PHOTOS             = DIR + "\\src\\test\\resources\\Photo";
+    public static final String BEARER_TOKEN_ADMIN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2NzA3NDExMjgsImZvdG9fdXNlciI6IiIsIm5hbWVfdXNlciI6InRyeTR1c2VyIiwicm9sZSI6InVzZXIiLCJ1c2VySWQiOjQzLCJ1c2VyX293bmVyIjpmYWxzZX0.AkEHkLBlT4r2QOj7OLfIarhJZR5-wLZx3ns9t7sKt98";
     public static final String BEARER_TOKEN_OWNER = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2NzA0NjM1NjQsImZvdG9fdXNlciI6Imh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hbHRhYnVja2V0L3NlZ29yb2J1Y2tldC91c2Vycy9hZG1pbjFfcGhvdG83NzNjOTA5My0wNTExLTQxZjAtYjc5OS0yZTMxZjAzM2EyZWYucG5nIiwibmFtZV91c2VyIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwidXNlcklkIjoyMywidXNlcl9vd25lciI6ZmFsc2V9.ijDQOXWRMaOixrPl5yWgIxZdkZmSoAWdVkjpQpl7tKc";
+    public static final String BEARER_TOKEN_USER = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2NzA0MTE5MTYsImZvdG9fdXNlciI6Im51bGwiLCJuYW1lX3VzZXIiOiJpZGJhbGl5YWgiLCJyb2xlIjoidXNlciIsInVzZXJJZCI6MTAsInVzZXJfb3duZXIiOmZhbHNlfQ.x39_hnv1LJ7vWKSbG5eNsojIviTljiD022WE5r6Q8Y0";
+
 
 
     //LOGIN//
@@ -34,6 +43,44 @@ public class SegoroAPI {
     @Step("Login invalid user")
     public void loginInvalidUser(File json){
         SerenityRest.given().contentType(ContentType.JSON).body(json);
+    }
+
+    //CREATE USER//
+    @Step("Post create user")
+    public void createUser(){
+        SerenityRest.given()
+                .multiPart("foto_user", new File(PHOTOS + "/User1.jpg"))
+                .multiPart("name_user", "User 4")
+                .multiPart("email", "user4@mail.com")
+                .multiPart("password", "123123")
+                .multiPart("address_user", "Papua Utara");
+    }
+
+    //UPDATE USER//
+    @Step("Post update user")
+    public void putUser(){
+        SerenityRest.given()
+                .multiPart("foto_owner", new File(PHOTOS + "/User1.jpg"))
+                .multiPart("name_user", "User 4 Update")
+                .multiPart("email", "user4update@mail.com")
+                .multiPart("password", "123123")
+                .multiPart("address_user", "Papua Utara")
+                .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
+    }
+
+    //APPROVE USER//
+    @Step("Put Approve User")
+    public void approveUser(int id){
+        SerenityRest.given().pathParam("user_id", id)
+                .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
+    }
+
+    //UPGRADE USER//
+    @Step("Put Upgrade User")
+    public void upgradeUser(){
+        SerenityRest.given()
+                .multiPart("foto_owner", new File(PHOTOS + "/User1.jpg"))
+                .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
     }
 
     //GET SINGLE USER//
@@ -69,6 +116,17 @@ public class SegoroAPI {
                 .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
     }
 
+    //CREATE REVIEW
+    @Step("Post create review")
+    public void createReview(){
+        SerenityRest.given()
+                .multiPart("foto_review", new File(PHOTOS + "/User1.jpg"))
+                .multiPart("rate", "80")
+                .multiPart("feedback", "bagus kok")
+                .multiPart("venue_id", "1")
+                .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
+    }
+
     //GET REVIEW BY VENUE ID//
     @Step("Get review by venue ID")
     public void getReviewByVenueID(int id) {
@@ -88,6 +146,14 @@ public class SegoroAPI {
     public void getSingleField(int id) {
         SerenityRest.given().pathParam("id", id)
                 .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN);
+    }
+
+    //DELETE USER BY ID//
+    @Step("Delete user by ID")
+    public void deleteUser(int id){
+        SerenityRest.given().queryParam("id", id)
+                .headers("Authorization", "Bearer "+BEARER_TOKEN_ADMIN)
+                .contentType(ContentType.JSON);
     }
 
 }

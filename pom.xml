@@ -2,12 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.serenitybdd.starter</groupId>
-    <artifactId>serenity-rest-starter</artifactId>
+
+    <groupId>org.example</groupId>
+    <artifactId>TEAM2-SegoroAPI</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
-    <name>Sample Serenity BDD project using Cucumber</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +21,7 @@
     </properties>
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -138,21 +138,20 @@
                 <version>3.0.0-M1</version>
                 <configuration>
                     <skip>true</skip>
-                </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.0.0-M1</version>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>

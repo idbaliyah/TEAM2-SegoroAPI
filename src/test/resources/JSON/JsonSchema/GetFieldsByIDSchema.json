@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "integer"
+            },
+            "nama_venue": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "price": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ID",
+            "nama_venue",
+            "category",
+            "price"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "message",
+    "status",
+    "code"
+  ]
+}

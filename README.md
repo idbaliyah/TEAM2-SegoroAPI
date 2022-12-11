@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -146,3 +147,14 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 [Gherkin-url]: https://cucumber.io/docs/gherkin/
 [JSON]: https://drive.google.com/file/d/1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw/view?usp=share_link
 [JSON-url]: https://www.json.org/json-en.html
+=======
+# Getting started with REST API testing with Serenity and Cucumber 6
+
+This is a simple starter project for Serenity with Cucumber 6 and RestAssured
+
+## Want to learn more?
+For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
+* **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
+* [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
+* [**The Serenity Dojo**](https://www.serenity-dojo.com) - Tailored BDD and Test Automation Training and Mentoring
+>>>>>>> f04217a64ef2c8cdff26f7a53ea7a54cccdc84ff

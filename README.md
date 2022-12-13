@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://drive.google.com/file/d/1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE/view?usp=share_link)
+[![Product Name Screen Shot][product-screenshot]](https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE)
 
 There are a lot of problems raised when you want to book a field for you and your clicks to play badminton, football/futsal, basketball, voley, or even swimming. Some of us often forget to call your favourite venue to secure your field in your busy days. Sometimes when you book via chat you are not sure is the field will available when you want it? Are you sure you have paid for it? But where's the payment slip?
 

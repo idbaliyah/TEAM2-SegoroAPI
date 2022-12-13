@@ -58,11 +58,11 @@ As an admin, you can:
 
 In this project we focus on the quality testing. Here are some of the technology we used:
 
-* [![Serenity]<style="max-width: 2.5%;">[Serenity]</style>][Serenity-BDD-url] 
-* [![Java][Java]][Java-url]
-* [![REST][REST]][Rest-url]
-* [![Gherkin][Gherkin]][Gherkin-url]
-* [![JSON][JSON]][JSON-url]
+* [![Serenity]][Serenity-BDD-url] 
+* [![Java]][Java-url]
+* [![REST]][Rest-url]
+* [![Gherkin]][Gherkin-url]
+* [![JSON]][JSON-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,14 +78,21 @@ Before we automate the tests, we created manual test case both for API and Web F
 
 ### Test Feature Coverage
 
-<!-- fitur apa aja yang ke test-->
+<img src="https://drive.google.com/uc?id=18XA_VHQb74bIXaKnqIjxvmg3gK0CUn6X" alt="WebTest" width="160" height="90">
+<br>
+
+We managed to do manual and automation testing. For web site manual testing, we divided by its page as seen above. And for the API site manual testing we divided by its endpoints and methods as seen below.
+<br>
+
+<img src="https://drive.google.com/uc?id=1dsxs0NwIDvh8wTUwSSYaWuZmvF_Pu6ML" alt="WebTest" width="160" height="90">
+<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## How To Run The Project
 
-<!-- Jelasin caranya -->
+You can clone or pull the project, then run it like your usual project using your prefered IDE.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,10 +114,7 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE
 
 [Serenity]: https://drive.google.com/uc?id=1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg

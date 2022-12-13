@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git">
-    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="80" height="50">
   </a>
 
   <h3 align="center">SegoroAPP - Team 2</h3>
@@ -113,13 +113,13 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE
 
-[Serenity]: https://drive.google.com/file/d/1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg/view?usp=share_link
+[Serenity]: https://drive.google.com/uc?id=1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg
 [Serenity-BDD-URL]: https://serenity-bdd.info/
-[Java]: https://drive.google.com/file/d/1LsPNh7R_RZi2VIZv-e1pmBET4S7NlTBf/view?usp=share_link
+[Java]: https://drive.google.com/uc?id=1LsPNh7R_RZi2VIZv-e1pmBET4S7NlTBf
 [Java-url]: https://www.java.com/en/
-[REST]: https://drive.google.com/file/d/1_pr0XWwZu2A_qgPQR46-Eb_G32az4mO-/view?usp=share_link
+[REST]: https://drive.google.com/uc?id=1_pr0XWwZu2A_qgPQR46-Eb_G32az4mO-
 [REST-url]: https://restfulapi.net/
-[Gherkin]: https://drive.google.com/file/d/1qnaLz1Cchu7WaBH4hNxIcml804g56D1f/view?usp=share_link
+[Gherkin]: https://drive.google.com/uc?id=1qnaLz1Cchu7WaBH4hNxIcml804g56D1f
 [Gherkin-url]: https://cucumber.io/docs/gherkin/
-[JSON]: https://drive.google.com/file/d/1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw/view?usp=share_link
+[JSON]: https://drive.google.com/uc?id=1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw
 [JSON-url]: https://www.json.org/json-en.html

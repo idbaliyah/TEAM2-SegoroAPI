@@ -111,7 +111,7 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE
 
 [Serenity]: https://drive.google.com/file/d/1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg/view?usp=share_link
 [Serenity-BDD-URL]: https://serenity-bdd.info/

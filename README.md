@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git">
-    <img src="https://drive.google.com/file/d/11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs/view?usp=share_link" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SegoroAPP - Team 2</h3>

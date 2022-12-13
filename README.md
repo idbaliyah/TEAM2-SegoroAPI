@@ -58,7 +58,7 @@ As an admin, you can:
 
 In this project we focus on the quality testing. Here are some of the technology we used:
 
-* <style="max-width: 2.5%;"> [![Serenity][Serenity]]</style> [Serenity-BDD-url] 
+* [![Serenity]<style="max-width: 2.5%;">[Serenity]</style>][Serenity-BDD-url] 
 * [![Java][Java]][Java-url]
 * [![REST][REST]][Rest-url]
 * [![Gherkin][Gherkin]][Gherkin-url]

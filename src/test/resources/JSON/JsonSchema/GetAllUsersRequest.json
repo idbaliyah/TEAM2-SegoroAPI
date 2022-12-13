@@ -2,55 +2,52 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "code": {
-      "type": "integer"
-    },
-    "status": {
-      "type": "string"
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name_user": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "role": {
+              "type": "string"
+            },
+            "address_user": {
+              "type": "string"
+            },
+            "foto_user": {
+              "type": "string"
+            },
+            "user_owner": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "name_user",
+            "email",
+            "role",
+            "address_user",
+            "foto_user",
+            "user_owner"
+          ]
+        }
+      ]
     },
     "message": {
       "type": "string"
-    },
-    "data": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer"
-        },
-        "nama_user": {
-          "type": "string"
-        },
-        "email": {
-          "type": "string"
-        },
-        "address_user": {
-          "type": "string"
-        },
-        "role": {
-          "type": "string"
-        },
-        "user_owner": {
-          "type": "boolean"
-        },
-        "foto_user": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "id",
-        "nama_user",
-        "email",
-        "address_user",
-        "role",
-        "user_owner",
-        "foto_user"
-      ]
     }
   },
   "required": [
-    "code",
-    "status",
-    "message",
-    "data"
+    "data",
+    "message"
   ]
 }

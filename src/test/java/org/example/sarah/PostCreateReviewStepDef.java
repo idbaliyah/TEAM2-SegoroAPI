@@ -1,14 +1,9 @@
-package starter.Auth;
+package org.example.sarah;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-
-import java.io.File;
-
-import static org.hamcrest.Matchers.equalTo;
 
 public class PostCreateReviewStepDef {
     @Steps

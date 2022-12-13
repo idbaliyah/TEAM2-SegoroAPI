@@ -2,47 +2,47 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "code": {
-      "type": "integer"
-    },
     "data": {
       "type": "object",
       "properties": {
         "id": {
           "type": "integer"
         },
-        "venue_id": {
-          "type": "integer"
-        },
-        "name_venue": {
+        "name_user": {
           "type": "string"
         },
-        "category": {
+        "email": {
           "type": "string"
         },
-        "price": {
-          "type": "integer"
+        "role": {
+          "type": "string"
+        },
+        "address_user": {
+          "type": "string"
+        },
+        "foto_user": {
+          "type": "string"
+        },
+        "user_owner": {
+          "type": "boolean"
         }
       },
       "required": [
         "id",
-        "venue_id",
-        "name_venue",
-        "category",
-        "price"
+        "name_user",
+        "email",
+        "role",
+        "address_user",
+        "foto_user",
+        "user_owner"
       ]
     },
     "message": {
       "type": "string"
-    },
-    "status": {
-      "type": "string"
     }
   },
   "required": [
-    "code",
     "data",
-    "message",
-    "status"
+    "message"
   ]
 }

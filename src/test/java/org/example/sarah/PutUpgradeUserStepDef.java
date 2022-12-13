@@ -1,4 +1,4 @@
-package starter.Auth;
+package org.example.sarah;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -15,6 +15,6 @@ public class PutUpgradeUserStepDef {
 
     @When("Send post upgrade user request")
     public void sendPostUpgradeUserRequest() {
-        SerenityRest.when().put(SegoroAPI.UPGRADE_USER);
+        SerenityRest.when().post(SegoroAPI.UPGRADE_USER);
     }
 }

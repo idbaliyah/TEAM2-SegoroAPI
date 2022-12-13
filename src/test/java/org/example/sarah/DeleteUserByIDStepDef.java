@@ -1,4 +1,4 @@
-package starter.Auth;
+package org.example.sarah;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;

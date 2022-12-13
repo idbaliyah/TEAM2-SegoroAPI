@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git">
-    <img src="https://drive.google.com/file/d/11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs/view?usp=share_link" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">SegoroAPP - Team 2</h3>
@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://drive.google.com/file/d/1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE/view?usp=share_link)
+[![Product Name Screen Shot][product-screenshot]](https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE)
 
 There are a lot of problems raised when you want to book a field for you and your clicks to play badminton, football/futsal, basketball, voley, or even swimming. Some of us often forget to call your favourite venue to secure your field in your busy days. Sometimes when you book via chat you are not sure is the field will available when you want it? Are you sure you have paid for it? But where's the payment slip?
 
@@ -58,11 +58,11 @@ As an admin, you can:
 
 In this project we focus on the quality testing. Here are some of the technology we used:
 
-* [![Serenity][Serenity]][Serenity-BDD-url]
-* [![Java][Java]][Java-url]
-* [![REST][REST]][Rest-url]
-* [![Gherkin][Gherkin]][Gherkin-url]
-* [![JSON][JSON]][JSON-url]
+* [![Serenity]][Serenity-BDD-url] 
+* [![Java]][Java-url]
+* [![REST]][Rest-url]
+* [![Gherkin]][Gherkin-url]
+* [![JSON]][JSON-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,14 +78,21 @@ Before we automate the tests, we created manual test case both for API and Web F
 
 ### Test Feature Coverage
 
-<!-- fitur apa aja yang ke test-->
+<img src="https://drive.google.com/uc?id=18XA_VHQb74bIXaKnqIjxvmg3gK0CUn6X" alt="WebTest" width="160" height="90">
+<br>
+
+We managed to do manual and automation testing. For web site manual testing, we divided by its page as seen above. And for the API site manual testing we divided by its endpoints and methods as seen below.
+<br>
+
+<img src="https://drive.google.com/uc?id=1dsxs0NwIDvh8wTUwSSYaWuZmvF_Pu6ML" alt="WebTest" width="160" height="90">
+<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## How To Run The Project
 
-<!-- Jelasin caranya -->
+You can clone or pull the project, then run it like your usual project using your prefered IDE.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,19 +114,16 @@ Project Link WEB: [Github WEB](https://github.com/idbaliyah/TEAM2-SegoroAPP)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://drive.google.com/uc?id=1SRZMxez8Ux2LA_P0nq0KgeeI3kNwIhwE
 
-[Serenity]: https://drive.google.com/file/d/1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg/view?usp=share_link
+[Serenity]: https://drive.google.com/uc?id=1lrPFNbwyhc2IZTmpV04RMlZ5kLiVq3yg
 [Serenity-BDD-URL]: https://serenity-bdd.info/
-[Java]: https://drive.google.com/file/d/1LsPNh7R_RZi2VIZv-e1pmBET4S7NlTBf/view?usp=share_link
+[Java]: https://drive.google.com/uc?id=1LsPNh7R_RZi2VIZv-e1pmBET4S7NlTBf
 [Java-url]: https://www.java.com/en/
-[REST]: https://drive.google.com/file/d/1_pr0XWwZu2A_qgPQR46-Eb_G32az4mO-/view?usp=share_link
+[REST]: https://drive.google.com/uc?id=1_pr0XWwZu2A_qgPQR46-Eb_G32az4mO-
 [REST-url]: https://restfulapi.net/
-[Gherkin]: https://drive.google.com/file/d/1qnaLz1Cchu7WaBH4hNxIcml804g56D1f/view?usp=share_link
+[Gherkin]: https://drive.google.com/uc?id=1qnaLz1Cchu7WaBH4hNxIcml804g56D1f
 [Gherkin-url]: https://cucumber.io/docs/gherkin/
-[JSON]: https://drive.google.com/file/d/1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw/view?usp=share_link
+[JSON]: https://drive.google.com/uc?id=1kX4QOu8wFpQTWTxZAUiQxG2c6QJW-Tjw
 [JSON-url]: https://www.json.org/json-en.html

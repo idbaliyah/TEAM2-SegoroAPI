@@ -1,4 +1,4 @@
-package starter.Auth;
+package org.example.sarah;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -7,9 +7,8 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import java.io.File;
-import static org.hamcrest.Matchers.equalTo;
 
-public class GetAllDataFields {
+public class GetAllDataFieldsStepDef {
     @Steps
     SegoroAPI segoroAPI;
     @Given("Get all data field with valid parameter")

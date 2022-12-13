@@ -1,7 +1,6 @@
 package org.example.hooks;
 
 public class SegoroAPI {
-
     public static final String URL = "https://altapro.online";
     public static final String DIR = System.getProperty("user.dir");
     public static final String JSON_REQ_BODY = DIR + "/src/test/resources/features/JSON/RequestBody";

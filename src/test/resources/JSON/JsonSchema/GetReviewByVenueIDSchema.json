@@ -2,30 +2,53 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
+    "code": {
+      "type": "integer"
+    },
     "data": {
       "type": "array",
       "items": [
         {
           "type": "object",
           "properties": {
-            "nama_user": {
+            "id": {
+              "type": "integer"
+            },
+            "name_user": {
               "type": "string"
             },
-            "review": {
+            "foto_user": {
               "type": "string"
+            },
+            "venue_id": {
+              "type": "integer"
+            },
+            "nama_venue": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
             },
             "rate": {
               "type": "integer"
             },
-            "foto": {
+            "feedback": {
+              "type": "string"
+            },
+            "foto_review": {
               "type": "string"
             }
           },
           "required": [
-            "nama_user",
-            "review",
+            "id",
+            "name_user",
+            "foto_user",
+            "venue_id",
+            "nama_venue",
+            "user_id",
             "rate",
-            "foto"
+            "feedback",
+            "foto_review"
           ]
         }
       ]
@@ -35,15 +58,12 @@
     },
     "status": {
       "type": "string"
-    },
-    "code": {
-      "type": "integer"
     }
   },
   "required": [
+    "code",
     "data",
     "message",
-    "status",
-    "code"
+    "status"
   ]
 }

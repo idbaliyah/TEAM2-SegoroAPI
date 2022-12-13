@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/idbaliyah/TEAM2-SegoroAPI.git">
-    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="80" height="50">
+    <img src="https://drive.google.com/uc?id=11J9RPYzkizaW1_2yjMqsMkAsQ-BbNezs" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">SegoroAPP - Team 2</h3>
@@ -58,7 +58,7 @@ As an admin, you can:
 
 In this project we focus on the quality testing. Here are some of the technology we used:
 
-* [![Serenity][Serenity]][Serenity-BDD-url]
+* <style="width:20; height:20;"> [![Serenity][Serenity]][Serenity-BDD-url]
 * [![Java][Java]][Java-url]
 * [![REST][REST]][Rest-url]
 * [![Gherkin][Gherkin]][Gherkin-url]

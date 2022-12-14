@@ -2,48 +2,23 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
+    "code": {
+      "type": "integer"
+    },
     "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "nama_user": {
-              "type": "string"
-            },
-            "review": {
-              "type": "string"
-            },
-            "rate": {
-              "type": "integer"
-            },
-            "foto": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "nama_user",
-            "review",
-            "rate",
-            "foto"
-          ]
-        }
-      ]
+      "type": "null"
     },
     "message": {
       "type": "string"
     },
     "status": {
       "type": "string"
-    },
-    "code": {
-      "type": "integer"
     }
   },
   "required": [
+    "code",
     "data",
     "message",
-    "status",
-    "code"
+    "status"
   ]
 }

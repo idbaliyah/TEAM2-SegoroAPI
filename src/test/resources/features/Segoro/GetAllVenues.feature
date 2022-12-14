@@ -12,7 +12,7 @@
 #      | 2  |
 
 Feature: Get All Venues
-  @venue
+  @venueAll
   Scenario: Get all venues
     Given Get All venue valid parameter
     When Send get all venue request

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "nama_user": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "address_user": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "user_owner": {
+          "type": "boolean"
+        },
+        "foto_user": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "nama_user",
+        "email",
+        "address_user",
+        "role",
+        "user_owner",
+        "foto_user"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "status",
+    "message",
+    "data"
+  ]
+}

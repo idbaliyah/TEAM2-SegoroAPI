@@ -1,90 +1,137 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "nama_venue": {
-              "type": "string"
-            },
-            "Address_venue": {
-              "type": "string"
-            },
-            "Foto": {
-              "type": "array",
-              "items": [
-                {
-                  "type": "object",
-                  "properties": {
-                    "foto_venue_id": {
-                      "type": "integer"
-                    },
-                    "venue_id": {
-                      "type": "integer"
-                    },
-                    "foto_venue": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "foto_venue_id",
-                    "venue_id",
-                    "foto_venue"
-                  ]
-                }
-              ]
-            },
-            "user_id": {
-              "type": "integer"
-            },
-            "nama_user": {
-              "type": "string"
-            },
-            "latitude": {
-              "type": "number"
-            },
-            "longitude": {
-              "type": "number"
-            },
-            "description_venue": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "nama_venue",
-            "Address_venue",
-            "Foto",
-            "user_id",
-            "nama_user",
-            "latitude",
-            "longitude",
-            "description_venue"
-          ]
-        }
-      ]
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "name_venue": "Gor Soekarno Hatta",
+      "address_venue": "Jakarta",
+      "description_venue": "gor terbaik",
+      "user_id": 4,
+      "name_user": "User1",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 10000,
+      "min_price": 5000,
+      "foto_venue": null
     },
-    "message": {
-      "type": "string"
+    {
+      "id": 4,
+      "name_venue": "Gor Soemantri",
+      "address_venue": "Jakarta Selatan",
+      "description_venue": "gor terbaik",
+      "user_id": 4,
+      "name_user": "User1",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
     },
-    "status": {
-      "type": "string"
+    {
+      "id": 5,
+      "name_venue": "Gor Soekarno Hatta",
+      "address_venue": "Jakarta",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
     },
-    "code": {
-      "type": "integer"
+    {
+      "id": 6,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 7,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 8,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 9,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 10,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 11,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
+    },
+    {
+      "id": 12,
+      "name_venue": "Gor Ken Arok",
+      "address_venue": "Malang",
+      "description_venue": "gor terbaik",
+      "user_id": 10,
+      "name_user": "idbaliyah",
+      "latitude": -7.77267,
+      "longitude": 110.431488,
+      "max_price": 0,
+      "min_price": 0,
+      "foto_venue": null
     }
-  },
-  "required": [
-    "data",
-    "message",
-    "status",
-    "code"
-  ]
+  ],
+  "message": "get all data success",
+  "status": "Success"
 }

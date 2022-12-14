@@ -51,8 +51,8 @@ public class SegoroAPI {
         SerenityRest.given()
                 .headers("Content-type", "multipart/form-data")
                 .multiPart("foto_user", new File(PHOTOS + "/User1.jpg"))
-                .multiPart("name_user", "User11")
-                .multiPart("email", "user11@mail.com")
+                .multiPart("name_user", "User2332")
+                .multiPart("email", "user8098908@mail.com")
                 .multiPart("password", "123123")
                 .multiPart("address_user", "Papua Utara");
     }

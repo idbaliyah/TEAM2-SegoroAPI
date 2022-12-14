@@ -4,8 +4,7 @@ Feature: Update Approve User Feature Test
     Given Put approve user to be owner with valid <id>
     When Send put approve user to be owner request
     Then Status code should be 200 OK
-#    And Put update photo profile user with multipart
     Examples:
       | id |
-      | 7  |
-      | 8  |
+      | 9  |
+      | 10 |

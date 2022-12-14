@@ -9,4 +9,3 @@ Feature: Get Venue By ID test
     Examples:
       | id |
       | 1  |
-      | 2  |

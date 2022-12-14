@@ -6,52 +6,7 @@
       "type": "integer"
     },
     "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "name_user": {
-              "type": "string"
-            },
-            "foto_user": {
-              "type": "string"
-            },
-            "venue_id": {
-              "type": "integer"
-            },
-            "nama_venue": {
-              "type": "string"
-            },
-            "user_id": {
-              "type": "integer"
-            },
-            "rate": {
-              "type": "integer"
-            },
-            "feedback": {
-              "type": "string"
-            },
-            "foto_review": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "name_user",
-            "foto_user",
-            "venue_id",
-            "nama_venue",
-            "user_id",
-            "rate",
-            "feedback",
-            "foto_review"
-          ]
-        }
-      ]
+      "type": "null"
     },
     "message": {
       "type": "string"

@@ -4,4 +4,3 @@ Feature: Create User Feature Test
     Given Post create user with valid data
     When Send post user request
     Then Status code should be 200 OK
-#    And Put update photo profile user with multipart

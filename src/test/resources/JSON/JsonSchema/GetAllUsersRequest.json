@@ -3,44 +3,7 @@
   "type": "object",
   "properties": {
     "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "name_user": {
-              "type": "string"
-            },
-            "email": {
-              "type": "string"
-            },
-            "role": {
-              "type": "string"
-            },
-            "address_user": {
-              "type": "string"
-            },
-            "foto_user": {
-              "type": "string"
-            },
-            "user_owner": {
-              "type": "boolean"
-            }
-          },
-          "required": [
-            "id",
-            "name_user",
-            "email",
-            "role",
-            "address_user",
-            "foto_user",
-            "user_owner"
-          ]
-        }
-      ]
+      "type": "null"
     },
     "message": {
       "type": "string"
